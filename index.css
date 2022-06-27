@@ -1,0 +1,147 @@
+* {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin 0;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 34, 31, 1) 0%, rgba(9, 120, 121, 0.4234068627450981) 100%, rgba(0, 212, 255, 1) 100%);
+  }
+
+/*Primera pagina HTML*/
+
+.encabezado {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.encabezado h1{
+    color: aliceblue;
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+    color:aliceblue
+}
+
+
+
+img{
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 20vh ;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.boton button{
+    width: 200px;
+    background: #1a1c1c;
+    border: none;
+    border-radius: 0%;
+    transition: 2s ease-in-out;
+    
+}
+
+.boton button:hover{
+    background: rgb(2,0,36);
+    border-radius: 5px;
+}
+
+
+
+/* Sobre Mi, segunda página HTML */
+
+
+.contenedor-encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.contenedor-encabezado p{
+    width: 200px;
+    margin-left: 20px;
+}
+
+.iconos{
+    text-align: center;
+   
+}
+.iconos a{
+    width: 500px;
+    margin: 5px;
+}
+
+/* mis trabajos, tercera página HTML*/
+
+
+.work h1{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+}
+
+/*ien, cuarta pagina html*/
+
+
+.titulo h1{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    color:#fff;
+    margin-left: 200px;
+    
+}
+
+
+.nav{
+ display: flex;
+ position: relative;
+ justify-content: end;
+ margin-right: 20px;
+ text-align: center;
+
+}
+.mapa{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+    position: relative;
+}
+
+.contenedor-ien{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contenedor-botones{
+    padding: 20px;
+    margin-left: 200px;
+}
